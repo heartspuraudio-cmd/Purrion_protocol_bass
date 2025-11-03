@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="0.0" y="0.0"
+             width="800.0" height="600.0">
+    <Component type="ScriptImage" id="demo image" x="0.0" y="-30.0" width="840.0"
+               height="570.0" parentComponent="FloatingTile1" fileName="{PROJECT_FOLDER}THICCCCCCC.png"/>
+    <Component type="ScriptFloatingTile" id="Peak Meter" x="290.0" y="335.0"
+               width="30.0" height="190.0" parentComponent="FloatingTile1" ContentType="MatrixPeakMeter"
+               bgColour="4063487" itemColour="1441792157" itemColour2="16711829"
+               Data="{&#10;  &quot;ProcessorId&quot;: &quot;Container1&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;SegmentLedSize&quot;: 0.0,&#10;  &quot;UpDecayTime&quot;: 0.0,&#10;  &quot;DownDecayTime&quot;: 0.0,&#10;  &quot;UseSourceChannels&quot;: false,&#10;  &quot;SkewFactor&quot;: 0.1,&#10;  &quot;PaddingSize&quot;: 1.0,&#10;  &quot;ShowMaxPeak&quot;: 1.0,&#10;  &quot;ChannelIndexes&quot;: [&#10;    0&#10;  ]&#10;}"
+               textColour="4294901962" itemColour3="4063487" FontSize="0.05999999865889549"/>
+  </Component>
+  <Component type="ScriptButton" id="Downpick" x="360.0" y="490.0" processorId="DownMidiMuter"
+             parameterId="Bypass" radioGroup="1.0"/>
+  <Component type="ScriptButton" id="Alt pick" x="510.0" y="490.0" processorId="AltMidiMuter"
+             parameterId="Bypass" radioGroup="1.0"/>
+</ContentProperties>

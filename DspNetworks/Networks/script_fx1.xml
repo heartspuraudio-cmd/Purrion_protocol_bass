@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Network ID="script_fx1" AllowCompilation="1" Version="0.0.0">
+  <Node FactoryPath="container.chain" ID="script_fx1" Bypassed="0" Name="THE BEEF"
+        ShowParameters="1">
+    <Nodes>
+      <Node ID="soft_bypass" FactoryPath="container.soft_bypass" Bypassed="0"
+            Name="soft_bypass" ShowParameters="0">
+        <Properties>
+          <Property ID="SmoothingTime" Value="20"/>
+        </Properties>
+        <Nodes>
+          <Node ID="neural1" FactoryPath="math.neural" Bypassed="0" Name="neural1">
+            <Properties>
+              <Property ID="Model" Value="NN_1"/>
+            </Properties>
+            <Parameters/>
+          </Node>
+        </Nodes>
+        <Parameters/>
+      </Node>
+    </Nodes>
+    <Parameters>
+      <Parameter ID="bypass amp" MinValue="0.0" MaxValue="1.0" ExternalModulation="Disabled"
+                 DefaultValue="" Value="1.0">
+        <Connections>
+          <Connection NodeId="soft_bypass" ParameterId="Bypassed"/>
+        </Connections>
+      </Parameter>
+    </Parameters>
+  </Node>
+</Network>

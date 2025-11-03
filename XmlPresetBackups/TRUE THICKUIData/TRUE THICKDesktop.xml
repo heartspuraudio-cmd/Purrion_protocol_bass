@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="0.0" y="0.0"
+             width="1200.0" height="760.0">
+    <Component type="ScriptImage" id="demo image" x="-1.0" y="0.0" width="1200.0"
+               height="780.0" parentComponent="FloatingTile1" fileName="{PROJECT_FOLDER}NO CATS BACKER.png"
+               scale="0.8999999761581421"/>
+    <Component type="ScriptSlider" id="SMOTHERMUTE" x="650.0" y="170.0" width="147.0"
+               height="147.0" parentComponent="FloatingTile1" defaultValue="29.0"
+               macroControl="Macro 2" max="37.0" stepSize="1.0" middlePosition="18.0"
+               min="1.0" text="Hush Engine" numStrips="37.0" filmstripImage="{PROJECT_FOLDER}new mute.png"
+               showValuePopup="Left" showTextBox="0"/>
+  </Component>
+  <Component type="ScriptButton" id="feral" x="850.0" y="530.0" width="150.0"
+             height="150.0" text="Feral Pulse engine" processorId="LAST" parameterId="Enabled"
+             defaultValue="1.0" radioGroup="2.0" filmstripImage="{PROJECT_FOLDER}beef string_g48.png"/>
+  <Component type="ScriptButton" id="ArtBtn0" x="199" y="137" text="DownPick"
+             saveInPreset="0" radioGroup="1.0" filmstripImage="{PROJECT_FOLDER}beef string_g5.png"
+             width="139.0" height="139.0"/>
+  <Component type="ScriptButton" id="ArtBtn1" x="793" y="155" text="Alternate Pick"
+             saveInPreset="0" radioGroup="1.0" width="134.0" height="135.0"
+             filmstripImage="{PROJECT_FOLDER}beef string_g1.png"/>
+  <Component type="ScriptButton" id="clawdrive" x="660.0" y="530.0" width="150.0"
+             height="150.0" text="Clawdrive " radioGroup="2.0" processorId="Mid"
+             parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}beef string_g3.png"/>
+  <Component type="ScriptButton" id="deltainput" x="470.0" y="530.0" width="150.0"
+             height="150.0" text="DELTA INPUT" radioGroup="2.0" processorId="Di"
+             parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}beef string_g4.png"/>
+  <Component type="ScriptSlider" id="THE BIGGLER" x="350.0" y="170.0" max="15.0"
+             processorId="Chungus" parameterId="Gain" width="147.0" height="147.0"
+             numStrips="15.0" filmstripImage="{PROJECT_FOLDER}NEW FAT.png"
+             showTextBox="0" showValuePopup="Left"/>
+  <Component type="ScriptSlider" id="Knob2" x="500.0" y="160.0" text="HISS BOOST"
+             processorId="IM DEAF" parameterId="Gain" max="8.0" numStrips="8.0"
+             width="147.0" height="147.0" filmstripImage="{PROJECT_FOLDER}Beef string singer.png"
+             scaleFactor="1.029999971389771" dragDirection="Vertical" showTextBox="0"
+             showValuePopup="Above"/>
+  <Component type="ScriptButton" id="SUB" x="1030.0" y="530.0" width="150.0"
+             height="150.0" text="              Engage SUBPURR ENGINE" processorId="GRAPES"
+             parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}beef string_g2.png"/>
+</ContentProperties>
